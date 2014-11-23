@@ -37,3 +37,18 @@ I hacked together range.pl, and it looks like "rust" is the only one. However, f
     13
     14
     15
+
+I actually initially misread the problem and first found "all those words whose characters appear in sorted order". Here's the top 10 by length:
+
+    bash-3.2$ cat /usr/share/dict/words | perl sorted.pl | sort -rn | head -10
+    7 egilops
+    7 billowy
+    7 begorry
+    7 beefily
+    7 alloquy
+    7 adelops
+    6 knotty
+    6 knoppy
+    6 glossy
+    6 ghosty
+
