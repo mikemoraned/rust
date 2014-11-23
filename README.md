@@ -38,6 +38,8 @@ I hacked together range.pl, and it looks like "rust" is the only one. However, f
     14
     15
 
+Note that "struv" doesn't appear to be a word that exists in any dictionary I find online. *However* /usr/share/dict/words should be based on Websters, so perhaps it's an older usage?
+
 I actually initially misread the problem and first found "all those words whose characters appear in sorted order". Here's the top 10 by length:
 
     bash-3.2$ cat /usr/share/dict/words | perl sorted.pl | sort -rn | head -10
